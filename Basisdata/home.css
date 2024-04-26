@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+(max-width: 1280px);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f3fbbc;
+    background: linear-gradient(to right, #5890fa, #d7e577);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.container span{
+    font-size: 12px;
+}
+
+.container a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.container h1{
+    color: #6d7347;
+    margin: 20px
+}
+
+.logo{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.namaklp{
+    display: flex;
+    flex-direction: column;
+}
+
+.namaklp h1 {
+    margin: 0; /* Menghapus margin bawaan dari <h1> */
+}
+
+.masuk{
+    background-color: #356cd1;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    max-width: 200px;
+    cursor: pointer;
+    margin-top: 25px;
+    align-items: center;
+    position: relative;
+}
+
+.masuk:hover{
+    background-color:  #5f8de2;
+}
+
+.masuk a {
+    text-decoration: none;
+    color: white;
+}
