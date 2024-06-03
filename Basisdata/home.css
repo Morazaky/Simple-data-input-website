@@ -20,7 +20,7 @@ body{
 .container{
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 767px;
     max-width: 100%;
     min-height: 480px;
     display: flex;
